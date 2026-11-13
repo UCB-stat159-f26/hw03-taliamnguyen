@@ -84,3 +84,11 @@ Tests can be run with:
 | `tests/testthat/test_parser.R` | Tests that the mock JavaScript career files are parsed into the expected dimensions and structure. |
 
 ## Personal Reflections
+
+This homework assignment made me realize how intricate the codings/scripts of packages can be. I have readily relied on so many packages throughout my statistics degree, especially `tidyverse`, and just realizes how many components go into a package has been wide opening. Especially with only making two functions, there were so many other things to consider.
+
+I also learned the importance of testing functions using mock data provided by the instructions rather than relying on the live server. I can imagine that the using the live server makes the package more vulnerable to breaking due to just the large scale that the live server could contain. Writing tests for the parser and cleaner were made easier in identifying problems and verifying that changes did not break the what already existed in the package.
+
+It was interesting to see that the Female data was formatted differently than the Male data, which I feel made it a little more difficult to handle parsing and cleaning the data. This was a big point of learning for me, in which I had to standardize both into a consistent format.
+
+It was also cool to actually run `R CMD check` myself to see what needed to be fixed. It's a very cool tool included in R Studio to verify whether the package works, and it really helped me identify where my package may fail.
