@@ -8,7 +8,7 @@ download_career_js <- function(name) {
   tf <- tempfile(fileext = ".js")
 
   tryCatch(
-    download.file(url, tf, quiet = TRUE),
+    utils::download.file(url, tf, quiet = TRUE),
     error = function(e) {
       stop("Could not retrieve player data.")
     }
