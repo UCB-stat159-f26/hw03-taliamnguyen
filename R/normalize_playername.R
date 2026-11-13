@@ -7,5 +7,4 @@ normalize_player_name <- function(name) {
     return(paste0(tools::toTitleCase(parts[1]),
                   tools::toTitleCase(parts[2])))}
 
-  tools::toTitleCase(name)
-}
+  tools::toTitleCase(name)}

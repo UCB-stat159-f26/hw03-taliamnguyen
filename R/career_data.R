@@ -15,5 +15,4 @@ career_data <- function(name) {
     return(clean_male_data(x))
   }
 
-  stop("Unexpected career data format.")
-}
+  stop("Unexpected career data format.")}

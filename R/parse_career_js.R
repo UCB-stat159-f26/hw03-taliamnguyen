@@ -7,5 +7,4 @@ parse_career_js <- function(path) {
   rows <- jsonlite::fromJSON(text, simplifyVector = FALSE)
   rows <- lapply(rows, unlist)
 
-  do.call(rbind, rows)
-}
+  do.call(rbind, rows)}
